@@ -1,0 +1,263 @@
+{
+  "en": {
+    "nav": {
+      "services": "Services",
+      "booking": "Booking",
+      "contact": "Contact"
+    },
+    "hero": {
+      "badge": "ADVANCED DIAGNOSTICS • 4-WHEELER SYSTEMS",
+      "title1": "ADVANCED",
+      "title2": "CAR WORKSHOP",
+      "subtitle": "Advanced Car Care, One Call Away. A cinematic high-tech workshop experience for diagnostics, repairs, towing, and fast response automotive support.",
+      "scroll": "SCROLL TO EXPLORE"
+    },
+    "cta": {
+      "whatsapp": "WhatsApp",
+      "call": "Call Now",
+      "book": "Book Service"
+    },
+    "services": {
+      "title": "High-tech automotive systems, handled with precision",
+      "subtitle": "Glassmorphism service cards, premium workshop flow, and fast support pathways for every critical 4-wheeler need.",
+      "spare": {
+        "title": "All spare parts available",
+        "desc": "Critical parts are ready for faster turnaround and fewer delays."
+      },
+      "oncall": {
+        "title": "One-call support system",
+        "desc": "Call, WhatsApp, or Telegram to move straight into workshop assistance."
+      },
+      "items": [
+        {
+          "title": "Car Servicing",
+          "desc": "Complete servicing workflow with preventive checks, fluid inspection, and premium maintenance support."
+        },
+        {
+          "title": "Engine Work",
+          "desc": "Engine and injector diagnostics with performance-focused repair workflow for smoother operation."
+        },
+        {
+          "title": "Suspension",
+          "desc": "Suspension system repair and stability tuning for comfort, control, and safer high-speed handling."
+        },
+        {
+          "title": "Diagnostics & Scanning",
+          "desc": "Advanced electronic scanning and fault tracing to identify the real problem before repair starts."
+        },
+        {
+          "title": "PUC & Insurance",
+          "desc": "Pollution certification and insurance support handled inside the same service experience."
+        },
+        {
+          "title": "Electrical & Electronics",
+          "desc": "Electrical fault repair, ECU-linked checks, and system-level troubleshooting for modern vehicles."
+        },
+        {
+          "title": "Battery & Tyre",
+          "desc": "Battery replacement, Exide support, and tyre-related response with workshop-ready turnaround."
+        },
+        {
+          "title": "Towing",
+          "desc": "Fast towing and one-call emergency assistance when your vehicle needs rescue first."
+        }
+      ]
+    },
+    "booking": {
+      "title": "Book high-tech service in seconds",
+      "subtitle": "Prepare your request with vehicle details, then jump directly into call, WhatsApp, or Telegram support.",
+      "brand": "Car Brand",
+      "selectBrand": "Select Brand",
+      "model": "Model",
+      "modelPlaceholder": "Enter model name",
+      "year": "Year",
+      "serviceType": "Service Type",
+      "selectService": "Select Service"
+    },
+    "contact": {
+      "title": "Ready to service your vehicle?",
+      "description": "Use the fastest route for your situation: direct call, instant WhatsApp chat, Telegram support, or location access from the map.",
+      "phone": {
+        "label": "Phone"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "Open direct chat"
+      }
+    }
+  },
+  "hi": {
+    "nav": {
+      "services": "सेवाएं",
+      "booking": "बुकिंग",
+      "contact": "संपर्क"
+    },
+    "hero": {
+      "badge": "एडवांस्ड डायग्नोस्टिक्स • 4-व्हीलर सिस्टम्स",
+      "title1": "एडवांस्ड",
+      "title2": "कार वर्कशॉप",
+      "subtitle": "एडवांस्ड कार केयर, बस एक कॉल दूर। डायग्नोस्टिक्स, रिपेयर, टोइंग और तेज ऑटोमोटिव सपोर्ट के लिए हाई-टेक वर्कशॉप अनुभव।",
+      "scroll": "एक्सप्लोर करने के लिए स्क्रॉल करें"
+    },
+    "cta": {
+      "whatsapp": "व्हाट्सऐप",
+      "call": "अभी कॉल करें",
+      "book": "बुक सर्विस"
+    },
+    "services": {
+      "title": "हाई-टेक ऑटोमोटिव सिस्टम्स, पूरी सटीकता के साथ",
+      "subtitle": "ग्लासमॉर्फिक सर्विस कार्ड्स, प्रीमियम वर्कशॉप फ्लो, और हर जरूरी 4-व्हीलर ज़रूरत के लिए फास्ट सपोर्ट।",
+      "spare": {
+        "title": "सभी स्पेयर पार्ट्स उपलब्ध",
+        "desc": "जरूरी पार्ट्स तैयार हैं ताकि सेवा तेज़ हो और देरी कम हो।"
+      },
+      "oncall": {
+        "title": "वन-कॉल सपोर्ट सिस्टम",
+        "desc": "कॉल, व्हाट्सऐप या टेलीग्राम से सीधे वर्कशॉप सहायता शुरू करें।"
+      },
+      "items": [
+        {
+          "title": "कार सर्विसिंग",
+          "desc": "प्रिवेंटिव चेक, फ्लूइड इंस्पेक्शन और प्रीमियम मेंटेनेंस सपोर्ट के साथ संपूर्ण सर्विसिंग।"
+        },
+        {
+          "title": "इंजन वर्क",
+          "desc": "स्मूथ परफॉर्मेंस के लिए इंजन और इंजेक्टर डायग्नोस्टिक्स तथा रिपेयर वर्कफ्लो।"
+        },
+        {
+          "title": "सस्पेंशन",
+          "desc": "आराम, कंट्रोल और बेहतर हैंडलिंग के लिए सस्पेंशन सिस्टम रिपेयर और ट्यूनिंग।"
+        },
+        {
+          "title": "डायग्नोस्टिक्स और स्कैनिंग",
+          "desc": "रिपेयर शुरू होने से पहले असली समस्या पहचानने के लिए एडवांस स्कैनिंग और फॉल्ट ट्रेसिंग।"
+        },
+        {
+          "title": "PUC और इंश्योरेंस",
+          "desc": "पॉल्यूशन सर्टिफिकेट और इंश्योरेंस सपोर्ट उसी सर्विस अनुभव में।"
+        },
+        {
+          "title": "इलेक्ट्रिकल और इलेक्ट्रॉनिक्स",
+          "desc": "आधुनिक वाहनों के लिए इलेक्ट्रिकल फॉल्ट रिपेयर और सिस्टम-लेवल ट्रबलशूटिंग।"
+        },
+        {
+          "title": "बैटरी और टायर",
+          "desc": "बैटरी रिप्लेसमेंट, एक्साइड सपोर्ट और टायर रिस्पॉन्स के साथ तेज़ वर्कशॉप टर्नअराउंड।"
+        },
+        {
+          "title": "टोइंग",
+          "desc": "जब वाहन को पहले रेस्क्यू चाहिए, तब फास्ट टोइंग और वन-कॉल इमरजेंसी सहायता।"
+        }
+      ]
+    },
+    "booking": {
+      "title": "कुछ सेकंड में हाई-टेक सर्विस बुक करें",
+      "subtitle": "वाहन की जानकारी भरें और फिर कॉल, व्हाट्सऐप या टेलीग्राम सपोर्ट चुनें।",
+      "brand": "कार ब्रांड",
+      "selectBrand": "ब्रांड चुनें",
+      "model": "मॉडल",
+      "modelPlaceholder": "मॉडल नाम दर्ज करें",
+      "year": "वर्ष",
+      "serviceType": "सेवा प्रकार",
+      "selectService": "सेवा चुनें"
+    },
+    "contact": {
+      "title": "क्या आप अपने वाहन की सर्विस के लिए तैयार हैं?",
+      "description": "अपनी स्थिति के अनुसार सबसे तेज़ रास्ता चुनें: डायरेक्ट कॉल, इंस्टेंट व्हाट्सऐप चैट, टेलीग्राम सपोर्ट या मैप लोकेशन।",
+      "phone": {
+        "label": "फोन"
+      },
+      "whatsapp": {
+        "label": "व्हाट्सऐप",
+        "value": "डायरेक्ट चैट खोलें"
+      }
+    }
+  },
+  "mr": {
+    "nav": {
+      "services": "सेवा",
+      "booking": "बुकिंग",
+      "contact": "संपर्क"
+    },
+    "hero": {
+      "badge": "अॅडव्हान्स्ड डायग्नोस्टिक्स • 4-व्हीलर सिस्टम्स",
+      "title1": "अॅडव्हान्स्ड",
+      "title2": "कार वर्कशॉप",
+      "subtitle": "अॅडव्हान्स्ड कार केअर, फक्त एका कॉलवर. डायग्नोस्टिक्स, रिपेअर, टोइंग आणि जलद सपोर्टसाठी हाय-टेक वर्कशॉप अनुभव.",
+      "scroll": "एक्सप्लोर करण्यासाठी स्क्रोल करा"
+    },
+    "cta": {
+      "whatsapp": "व्हॉट्सअॅप",
+      "call": "आता कॉल करा",
+      "book": "सर्विस बुक करा"
+    },
+    "services": {
+      "title": "हाय-टेक ऑटोमोटिव्ह सिस्टम्स, अचूकतेसह हाताळलेले",
+      "subtitle": "ग्लासमॉर्फिक कार्ड्स, प्रीमियम वर्कशॉप फ्लो आणि प्रत्येक महत्त्वाच्या 4-व्हीलर गरजेसाठी वेगवान सपोर्ट मार्ग.",
+      "spare": {
+        "title": "सर्व स्पेअर पार्ट्स उपलब्ध",
+        "desc": "महत्त्वाचे पार्ट्स तयार असल्याने सेवा अधिक वेगाने पूर्ण होते."
+      },
+      "oncall": {
+        "title": "वन-कॉल सपोर्ट सिस्टम",
+        "desc": "कॉल, व्हॉट्सअॅप किंवा टेलिग्रामद्वारे थेट वर्कशॉप मदत सुरू करा."
+      },
+      "items": [
+        {
+          "title": "कार सर्व्हिसिंग",
+          "desc": "प्रिव्हेंटिव्ह चेक, फ्लुइड तपासणी आणि प्रीमियम मेंटेनन्स सपोर्टसह संपूर्ण सर्व्हिसिंग."
+        },
+        {
+          "title": "इंजिन वर्क",
+          "desc": "स्मूथ परफॉर्मन्ससाठी इंजिन आणि इंजेक्टर डायग्नोस्टिक्स तसेच रिपेअर वर्कफ्लो."
+        },
+        {
+          "title": "सस्पेंशन",
+          "desc": "आराम, कंट्रोल आणि सुरक्षित हँडलिंगसाठी सस्पेंशन सिस्टम रिपेअर आणि ट्यूनिंग."
+        },
+        {
+          "title": "डायग्नोस्टिक्स आणि स्कॅनिंग",
+          "desc": "रिपेअरपूर्वी खरी समस्या शोधण्यासाठी अॅडव्हान्स स्कॅनिंग आणि फॉल्ट ट्रेसिंग."
+        },
+        {
+          "title": "PUC आणि इन्शुरन्स",
+          "desc": "पॉल्यूशन सर्टिफिकेट आणि इन्शुरन्स सपोर्ट एकाच सर्विस अनुभवात."
+        },
+        {
+          "title": "इलेक्ट्रिकल आणि इलेक्ट्रॉनिक्स",
+          "desc": "आधुनिक वाहनांसाठी इलेक्ट्रिकल फॉल्ट रिपेअर आणि सिस्टम-लेव्हल ट्रबलशूटिंग."
+        },
+        {
+          "title": "बॅटरी आणि टायर",
+          "desc": "बॅटरी रिप्लेसमेंट, एक्साइड सपोर्ट आणि टायर प्रतिसादासह जलद वर्कशॉप टर्नअराउंड."
+        },
+        {
+          "title": "टोइंग",
+          "desc": "वाहनाला प्रथम रेस्क्यूची गरज असताना फास्ट टोइंग आणि वन-कॉल आपत्कालीन मदत."
+        }
+      ]
+    },
+    "booking": {
+      "title": "काही सेकंदांत हाय-टेक सर्विस बुक करा",
+      "subtitle": "वाहनाची माहिती भरा आणि नंतर कॉल, व्हॉट्सअॅप किंवा टेलिग्राम सपोर्ट निवडा.",
+      "brand": "कार ब्रँड",
+      "selectBrand": "ब्रँड निवडा",
+      "model": "मॉडेल",
+      "modelPlaceholder": "मॉडेल नाव टाका",
+      "year": "वर्ष",
+      "serviceType": "सेवा प्रकार",
+      "selectService": "सेवा निवडा"
+    },
+    "contact": {
+      "title": "तुमच्या वाहनाच्या सर्व्हिससाठी तयार आहात?",
+      "description": "तुमच्या परिस्थितीसाठी सर्वात वेगवान मार्ग निवडा: डायरेक्ट कॉल, इन्स्टंट व्हॉट्सअॅप चॅट, टेलिग्राम सपोर्ट किंवा मॅप लोकेशन. ",
+      "phone": {
+        "label": "फोन"
+      },
+      "whatsapp": {
+        "label": "व्हॉट्सअॅप",
+        "value": "डायरेक्ट चॅट उघडा"
+      }
+    }
+  }
+}

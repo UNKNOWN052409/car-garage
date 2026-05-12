@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl bash *)",
+      "Bash(claude plugin *)",
+      "mcp__voicemode__converse",
+      "Bash(wsl hostname *)",
+      "Bash(ipconfig)"
+    ]
+  }
+}

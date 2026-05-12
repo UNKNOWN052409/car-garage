@@ -1,0 +1,163 @@
+.booking {
+  padding: var(--spacing-3xl) 0;
+}
+
+.bookingLayout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.bookingIntro {
+  position: sticky;
+  top: 7rem;
+}
+
+.sectionTitle {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin: 1.2rem 0 1rem;
+  color: #ffffff;
+}
+
+.sectionSubtitle {
+  color: var(--text-soft);
+  line-height: 1.9;
+  max-width: 36rem;
+}
+
+.bookingStats {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1.8rem;
+}
+
+.bookingStats div {
+  padding: 1rem 1.15rem;
+  border-radius: 1.1rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.bookingStats strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: #ffffff;
+}
+
+.bookingStats span {
+  color: var(--text-soft);
+}
+
+.bookingForm {
+  padding: 1.6rem;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.formGroup {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.formGroupFull {
+  grid-column: 1 / -1;
+}
+
+.formGroup span {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.formField {
+  width: 100%;
+  min-height: 3.35rem;
+  border-radius: 1rem;
+  background: #1e1e1e;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #ffffff;
+  padding: 0 1rem;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+.formField:focus {
+  outline: none;
+  border-color: rgba(255,255,255,0.24);
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.08);
+}
+
+.formField option {
+  background: #1e1e1e;
+  color: #ffffff;
+}
+
+.bookingOutput {
+  margin: 1rem 0 1.2rem;
+  padding: 1rem 1.1rem;
+  border-radius: 1rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: var(--text-soft);
+}
+
+.formActions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.btnPrimary,
+.btnGlass {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.4rem;
+  border-radius: 999px;
+  font-weight: 700;
+  transition: transform 0.4s ease, background 0.4s ease;
+}
+
+.btnPrimary {
+  background: #ffffff;
+  color: #111111;
+}
+
+.btnPrimary:disabled {
+  opacity: 0.7;
+  cursor: wait;
+  transform: none;
+}
+
+.btnGlass {
+  color: #ffffff;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.btnPrimary:hover,
+.btnGlass:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 980px) {
+  .bookingLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .bookingIntro {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .formGrid,
+  .formActions {
+    grid-template-columns: 1fr;
+  }
+}

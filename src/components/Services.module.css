@@ -1,0 +1,73 @@
+.services {
+  position: relative;
+  padding: var(--spacing-3xl) 0;
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 4rem;
+}
+
+.sectionTitle {
+  font-size: clamp(2.6rem, 5vw, 4.4rem);
+  margin: 1.2rem 0 1rem;
+  color: #ffffff;
+}
+
+.sectionSubtitle {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.4rem;
+}
+
+.servicesFooter {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.footerHighlight {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+}
+
+.highlightIcon {
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+  background: #ffffff;
+  color: #111111;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.footerHighlight h4 {
+  font-size: 1.15rem;
+  margin-bottom: 0.35rem;
+  color: #ffffff;
+}
+
+.footerHighlight p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+@media (max-width: 768px) {
+  .servicesFooter {
+    grid-template-columns: 1fr;
+  }
+}

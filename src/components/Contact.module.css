@@ -1,0 +1,89 @@
+.contact {
+  padding: var(--spacing-3xl) 0 5rem;
+}
+
+.contactLayout {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 1.4rem;
+}
+
+.sectionTitle {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  margin: 1.2rem 0 1rem;
+  color: #ffffff;
+}
+
+.contactDescription {
+  color: var(--text-soft);
+  line-height: 1.9;
+  margin-bottom: 1.6rem;
+}
+
+.contactMethods {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.contactMethod {
+  display: block;
+  padding: 1.2rem 1.25rem;
+}
+
+.methodLabel {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.methodValue {
+  margin-top: 0.4rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.mapCard {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.mapCard iframe {
+  display: block;
+  width: 100%;
+  min-height: 440px;
+  border: 0;
+  filter: grayscale(1) invert(0.95) brightness(0.82) contrast(1.08);
+}
+
+.floatingWhatsapp {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #111111;
+  font-weight: 900;
+  box-shadow: var(--shadow-md);
+  z-index: 999;
+}
+
+@media (max-width: 980px) {
+  .contactLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .floatingWhatsapp {
+    width: 3.4rem;
+    height: 3.4rem;
+    right: 1rem;
+    bottom: 1rem;
+  }
+}

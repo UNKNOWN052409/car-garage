@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Car Garage - Premium Automotive Care</title>
+    <link rel="stylesheet" href="premium-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="car-loader">
+                <div class="car-body"></div>
+                <div class="wheel wheel-front"></div>
+                <div class="wheel wheel-back"></div>
+            </div>
+            <div class="loading-text">INITIALIZING SYSTEMS</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">ADVANCED GARAGE</span>
+            </div>
+            <div class="nav-links">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#booking" class="nav-link">Book Now</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="tel:+919834756711" class="nav-cta">
+                <span>Call Now</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Premium Automotive Excellence</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-line" data-scroll>ADVANCED CAR CARE</span>
+                <span class="title-line gradient-text" data-scroll>ONE CALL AWAY</span>
+            </h1>
+
+            <p class="hero-subtitle" data-scroll>
+                Experience next-generation automotive service with cutting-edge diagnostics and expert care
+            </p>
+
+            <div class="hero-cta" data-scroll>
+                <a href="#booking" class="btn btn-primary">
+                    <span class="btn-text">Book Service</span>
+                    <span class="btn-icon">→</span>
+                </a>
+                <a href="https://wa.me/919834756711" class="btn btn-glass" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                    <span class="btn-text">WhatsApp</span>
+                </a>
+                <a href="tel:+919834756711" class="btn btn-glass">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <span class="btn-text">Call Now</span>
+                </a>
+            </div>
+
+            <!-- 3D Car Visualization -->
+            <div class="car-3d-container" data-scroll>
+                <div class="car-3d">
+                    <div class="car-frame">
+                        <div class="car-top"></div>
+                        <div class="car-middle"></div>
+                        <div class="car-bottom"></div>
+                        <div class="car-wheel car-wheel-1"></div>
+                        <div class="car-wheel car-wheel-2"></div>
+                        <div class="car-light car-light-1"></div>
+                        <div class="car-light car-light-2"></div>
+                    </div>
+                </div>
+                <div class="car-shadow"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>SCROLL TO EXPLORE</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-scroll>
+                <span class="section-label">OUR EXPERTISE</span>
+                <h2 class="section-title">Premium Services</h2>
+                <p class="section-subtitle">Comprehensive automotive solutions powered by advanced technology</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service cards will be generated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-header" data-scroll>
+                    <span class="section-label">SMART BOOKING</span>
+                    <h2 class="section-title">Schedule Your Service</h2>
+                    <p class="section-subtitle">Select your vehicle and service type for instant assistance</p>
+                </div>
+
+                <div class="booking-form-container" data-scroll>
+                    <div class="glass-card booking-form">
+                        <div class="form-group">
+                            <label>Car Brand</label>
+                            <select class="form-select" id="carBrand">
+                                <option value="">Select Brand</option>
+                                <option value="maruti">Maruti Suzuki</option>
+                                <option value="hyundai">Hyundai</option>
+                                <option value="tata">Tata</option>
+                                <option value="mahindra">Mahindra</option>
+                                <option value="honda">Honda</option>
+                                <option value="toyota">Toyota</option>
+                                <option value="kia">Kia</option>
+                                <option value="mg">MG</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Model</label>
+                            <input type="text" class="form-input" placeholder="Enter model name" id="carModel">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Year</label>
+                            <input type="number" class="form-input" placeholder="2024" id="carYear" min="1990" max="2026">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Service Type</label>
+                            <select class="form-select" id="serviceType">
+                                <option value="">Select Service</option>
+                                <option value="servicing">Car Servicing</option>
+                                <option value="suspension">Suspension Work</option>
+                                <option value="engine">Engine Work</option>
+                                <option value="diagnostics">Diagnostics & Scanning</option>
+                                <option value="puc">PUC & Insurance</option>
+                                <option value="electrical">Electrical & Electronics</option>
+                                <option value="battery">Battery & Tyre</option>
+                                <option value="towing">Towing Service</option>
+                            </select>
+                        </div>
+
+                        <div class="form-actions">
+                            <button class="btn btn-primary btn-block" onclick="bookViaCall()">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                <span>Call Now</span>
+                            </button>
+                            <button class="btn btn-glass btn-block" onclick="bookViaWhatsApp()">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                                </svg>
+                                <span>WhatsApp Chat</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-scroll>
+                <span class="section-label">TESTIMONIALS</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+
+            <div class="testimonials-slider" data-scroll>
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Exceptional service! The diagnostic scanning was thorough and they fixed my engine issue perfectly. Highly professional team."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div class="author-info">
+                            <div class="author-name">Rajesh Kumar</div>
+                            <div class="author-title">Honda City Owner</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Best garage in the area! Quick towing service and excellent suspension work. They saved me during an emergency."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">P</div>
+                        <div class="author-info">
+                            <div class="author-name">Priya Sharma</div>
+                            <div class="author-title">Maruti Swift Owner</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Professional and transparent pricing. The electrical work was done perfectly and they explained everything clearly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <div class="author-name">Amit Patel</div>
+                            <div class="author-title">Hyundai Creta Owner</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info" data-scroll>
+                    <span class="section-label">GET IN TOUCH</span>
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-subtitle">Reach out for premium automotive care</p>
+
+                    <div class="contact-methods">
+                        <a href="tel:+919834756711" class="contact-method glass-card">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <div class="method-label">Phone</div>
+                                <div class="method-value">+91 98347 56711</div>
+                            </div>
+                        </a>
+
+                        <a href="https://wa.me/919834756711" class="contact-method glass-card" target="_blank">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <div class="method-label">WhatsApp</div>
+                                <div class="method-value">Message Us</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">ADVANCED GARAGE</span>
+                    </div>
+                    <p class="footer-tagline">Premium automotive excellence</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#booking">Book Now</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <p>© 2024 Advanced Car Garage</p>
+                    <p>+91 98347 56711</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919834756711" class="floating-whatsapp" target="_blank">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+    </a>
+
+    <script src="premium-script.js"></script>
+</body>
+</html>

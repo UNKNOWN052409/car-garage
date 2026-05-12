@@ -1,0 +1,29 @@
+{
+  "agents": [
+    {
+      "agent_id": "aa694b2dc2bff59c7",
+      "agent_type": "implementer-task-1",
+      "started_at": "2026-04-23T18:24:30.540Z",
+      "parent_mode": "none",
+      "status": "running"
+    },
+    {
+      "agent_id": "a2d3c4a4722f48799",
+      "agent_type": "implementer-task-1",
+      "started_at": "2026-04-23T18:25:05.536Z",
+      "parent_mode": "none",
+      "status": "running"
+    },
+    {
+      "agent_id": "a4076cba0d76be419",
+      "agent_type": "implementer-task-1",
+      "started_at": "2026-04-23T18:25:22.621Z",
+      "parent_mode": "none",
+      "status": "running"
+    }
+  ],
+  "total_spawned": 3,
+  "total_completed": 0,
+  "total_failed": 0,
+  "last_updated": "2026-04-23T19:23:04.413Z"
+}
