@@ -11,10 +11,15 @@ import LoadingScreen from './components/LoadingScreen';
 import { useLenis } from './hooks/useLenis';
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const { i18n } = useTranslation();
 
   useLenis();
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => setLoading(false), 2900);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -23,7 +28,6 @@ function App() {
 
   return (
     <>
-      <SpeedInsights />
       <CustomCursor />
       {loading && <LoadingScreen />}
       <Navbar onLanguageChange={changeLanguage} currentLanguage={i18n.language} />
@@ -33,6 +37,7 @@ function App() {
         <Booking />
         <Contact />
       </main>
+      <SpeedInsights />
     </>
   );
 }

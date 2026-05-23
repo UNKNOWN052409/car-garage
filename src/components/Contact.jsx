@@ -27,7 +27,7 @@ export default function Contact() {
                 <div className={styles.methodLabel}>Telegram</div>
                 <div className={styles.methodValue}>Open Support</div>
               </a>
-              <a href="https://maps.app.goo.gl/nsE5ZBVXpy8wbUxo8" className={`${styles.contactMethod} glass-card`} target="_blank" rel="noopener noreferrer">
+              <a href="https://www.google.com/maps/place/ADVANCE+CAR+REPAIR+AND+SERVICE/@20.1860526,79.9771726,17z/data=!3m1!4b1!4m6!3m5!1s0x3a2cfbf5756427a9:0x9fa0fc78d69a01b2!8m2!3d20.1860526!4d79.9797475!16s%2Fg%2F11n99qkf91!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D" className={`${styles.contactMethod} glass-card`} target="_blank" rel="noopener noreferrer">
                 <div className={styles.methodLabel}>Location</div>
                 <div className={styles.methodValue}>View on Map</div>
               </a>
@@ -38,12 +38,12 @@ export default function Contact() {
             <div className={`${styles.mapCard} glass-card`}>
               <iframe
                 title="ADVANCED CAR WORKSHOP map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0!2d73.8567!3d18.5204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDMxJzEzLjQiTiA3M8KwNTEnMjQuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
+                src="https://maps.google.com/maps?q=20.1860526,79.9797475&hl=en&z=17&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
               <a
-                href="https://maps.app.goo.gl/nsE5ZBVXpy8wbUxo8"
+                href="https://www.google.com/maps/place/ADVANCE+CAR+REPAIR+AND+SERVICE/@20.1860526,79.9771726,17z/data=!3m1!4b1!4m6!3m5!1s0x3a2cfbf5756427a9:0x9fa0fc78d69a01b2!8m2!3d20.1860526!4d79.9797475!16s%2Fg%2F11n99qkf91!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.mapOverlayLink}
