@@ -1,7 +1,7 @@
 {
   "tool_name": "PowerShell",
-  "tool_input_preview": "{\"command\":\"cd \\\"C:\\\\Users\\\\Unkno\\\\Videos\\\\New folder\\\\advance car garage\\\"; git status\",\"description\":\"Check git status\"}",
-  "error": "Exit code 128\nfatal: not a git repository (or any of the parent directories): .git",
-  "timestamp": "2026-05-23T11:36:08.042Z",
-  "retry_count": 1
+  "tool_input_preview": "{\"command\":\"cd \\\"C:\\\\Users\\\\Unkno\\\\Videos\\\\New folder\\\\advance car garage\\\"; git pull origin main --allow-unrelated-histories\",\"description\":\"Pull and merge remote changes\"}",
+  "error": "Exit code 2\nFrom https://github.com/UNKNOWN052409/car-garage\n * branch            main       -> FETCH_HEAD\n * [new branch]      main       -> origin/main\nwarning: in the working copy of '.omc/state/last-tool-error.json', LF will be replaced by CRLF the next time Git touches it\nerror: Your local changes to the following files would be overwritten by merge:\n\t.omc/state/hud-stdin-cache.json\n\t.omc/state/last-tool-error.json\nPlease commit your changes or stash them before you merge.\nAborting\nMerge wi...",
+  "timestamp": "2026-05-23T11:40:40.655Z",
+  "retry_count": 2
 }
