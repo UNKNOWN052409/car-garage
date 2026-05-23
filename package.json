@@ -20,8 +20,8 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
-    "@react-three/drei": "^10.7.7",
-    "@react-three/fiber": "^9.6.0",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
     "@studio-freight/lenis": "^1.0.42",
     "@supabase/supabase-js": "^2.104.1",
     "@vercel/speed-insights": "^2.0.0",
