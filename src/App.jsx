@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -36,6 +37,7 @@ function App() {
         <Booking />
         <Contact />
       </main>
+      <SpeedInsights />
     </>
   );
 }
