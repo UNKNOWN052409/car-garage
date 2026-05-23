@@ -1,0 +1,260 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779534700447,
+  "projectRoot": "C:\\Users\\Unkno\\Videos\\New folder\\advance car garage",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "18.3.1",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "18.3.1",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "5.0.0",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "start": "vite"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "api": {
+      "path": "api",
+      "purpose": "API routes",
+      "fileCount": 0,
+      "lastAccessed": 1779534700395,
+      "keyFiles": []
+    },
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 1,
+      "lastAccessed": 1779534700396,
+      "keyFiles": [
+        "index.html"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1779534700412,
+      "keyFiles": []
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1779534700413,
+      "keyFiles": [
+        "App.jsx",
+        "i18n.js",
+        "index.html",
+        "main.jsx"
+      ]
+    },
+    "supabase": {
+      "path": "supabase",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1779534700414,
+      "keyFiles": [
+        "schema.sql"
+      ]
+    },
+    "dist\\assets": {
+      "path": "dist\\assets",
+      "purpose": "Static assets",
+      "fileCount": 5,
+      "lastAccessed": 1779534700415,
+      "keyFiles": [
+        "animation-vendor-iKlWqJlF.js",
+        "index-DUCLC9Ma.js",
+        "index-pqJFl5K3.css"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 22,
+      "lastAccessed": 1779534700417,
+      "keyFiles": [
+        "Booking.jsx",
+        "Booking.module.css",
+        "Car3D.jsx"
+      ]
+    },
+    "src\\utils": {
+      "path": "src\\utils",
+      "purpose": "Utility functions",
+      "fileCount": 4,
+      "lastAccessed": 1779534700418,
+      "keyFiles": [
+        "animations.js",
+        "api.js",
+        "constants.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src",
+      "accessCount": 5,
+      "lastAccessed": 1779535433654,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\Contact.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1779536205003,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1779536273732,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Contact.module.css",
+      "accessCount": 3,
+      "lastAccessed": 1779536244743,
+      "type": "file"
+    },
+    {
+      "path": "src\\utils\\constants.js",
+      "accessCount": 2,
+      "lastAccessed": 1779534966031,
+      "type": "file"
+    },
+    {
+      "path": "src\\index.html",
+      "accessCount": 2,
+      "lastAccessed": 1779534970808,
+      "type": "file"
+    },
+    {
+      "path": "src\\utils\\api.js",
+      "accessCount": 2,
+      "lastAccessed": 1779536197702,
+      "type": "file"
+    },
+    {
+      "path": "script.js",
+      "accessCount": 1,
+      "lastAccessed": 1779534867550,
+      "type": "file"
+    },
+    {
+      "path": "src\\js\\main.js",
+      "accessCount": 1,
+      "lastAccessed": 1779534867589,
+      "type": "file"
+    },
+    {
+      "path": "src\\js\\i18n.js",
+      "accessCount": 1,
+      "lastAccessed": 1779534876487,
+      "type": "file"
+    },
+    {
+      "path": "src\\locales\\translations.json",
+      "accessCount": 1,
+      "lastAccessed": 1779534907498,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\LoadingScreen.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1779534920873,
+      "type": "file"
+    },
+    {
+      "path": "vite.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1779534989709,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1779534989733,
+      "type": "file"
+    },
+    {
+      "path": "src\\main.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1779535162263,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 1,
+      "lastAccessed": 1779535162305,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n.js",
+      "accessCount": 1,
+      "lastAccessed": 1779535176724,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Services.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1779535392860,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Booking.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1779536166432,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

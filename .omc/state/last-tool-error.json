@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"cd \\\"C:\\\\Users\\\\Unkno\\\\Videos\\\\New folder\\\\advance car garage\\\"; git status\",\"description\":\"Check git status\"}",
+  "error": "Exit code 128\nfatal: not a git repository (or any of the parent directories): .git",
+  "timestamp": "2026-05-23T11:36:08.042Z",
+  "retry_count": 1
+}

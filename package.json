@@ -1,0 +1,37 @@
+{
+  "name": "advanced-car-garage",
+  "version": "1.0.0",
+  "description": "Advanced Car Garage - Professional Auto Services Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "keywords": [
+    "garage",
+    "automotive",
+    "car-service"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.0",
+    "@studio-freight/lenis": "^1.0.42",
+    "@supabase/supabase-js": "^2.104.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "clsx": "^2.1.1",
+    "gsap": "^3.15.0",
+    "i18next": "^26.0.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^17.0.4",
+    "three": "^0.184.0"
+  }
+}
